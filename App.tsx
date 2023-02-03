@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { Register } from './src/screens/Register';
@@ -40,6 +40,7 @@ export default function App() {
     >
       <ThemeProvider theme={theme}>
         <NavigationContainer>
+          <StatusBar barStyle='light-content' />
           <AppRoutes />
         </NavigationContainer>
       </ThemeProvider>
