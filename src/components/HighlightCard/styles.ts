@@ -12,8 +12,8 @@ export const Container = styled.View<TypeProps>`
   width: ${RFValue(250)}px;
   border-radius: 5px;
   padding: 19px 23px;
-  padding-bottom: ${RFValue(42)}px;
-  margin-left: 16px;
+  padding-bottom: ${RFValue(20)}px;
+  margin-right: 16px;
 `;
 
 export const Header = styled.View`
@@ -55,7 +55,7 @@ export const Footer = styled.View``;
 export const Amount = styled.Text<TypeProps>`
   font-family: ${({ theme }) => theme.fonts.medium};
   font-size: ${RFValue(32)}px;
-  margin-top: 38px;
+  margin-top: 20px;
   color: ${({ theme, type }) =>
     type === 'total' ? theme.colors.shape : theme.colors.text_dark};
 `;

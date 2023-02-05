@@ -16,7 +16,7 @@ export const Container = styled.View`
 
 export const Header = styled.View`
   width: 100%;
-  height: ${RFPercentage(42)}px;
+  height: ${RFPercentage(35)}px;
 
   background-color: ${({ theme }) => theme.colors.primary};
 
@@ -82,7 +82,7 @@ export const Transactions = styled.View`
   flex: 1;
   padding: 0 24px;
 
-  margin-top: ${RFPercentage(8)}px;
+  margin-top: ${RFPercentage(11)}px;
 `;
 
 export const Title = styled.Text`
