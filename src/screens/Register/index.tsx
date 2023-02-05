@@ -24,6 +24,7 @@ import {
   NavigationProp,
   ParamListBase,
 } from '@react-navigation/native';
+import { useAuth } from '../../hooks/auth';
 
 interface FormData {
   name: string;
@@ -41,8 +42,9 @@ const schema = Yup.object().shape({
 export function Register() {
   const [transactionType, setTransactionType] = useState('');
   const [categoryModalOpen, setCategoryModalOpen] = useState(false);
+  const { user } = useAuth();
 
-  const dataKey = '@gofinances:transactions';
+  const dataKey = `@gofinances:transactions_${user.id}`;
 
   const [category, setCategory] = useState({
     key: 'category',

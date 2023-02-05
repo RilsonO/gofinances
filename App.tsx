@@ -2,9 +2,8 @@ import React, { useCallback } from 'react';
 import { View, StyleSheet, StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { Register } from './src/screens/Register';
 import theme from './src/global/styles/theme';
-import { NavigationContainer } from '@react-navigation/native';
+import { Routes } from './src/routes';
 import {
   useFonts,
   Poppins_400Regular,
@@ -12,7 +11,7 @@ import {
   Poppins_700Bold,
 } from '@expo-google-fonts/poppins';
 import * as SplashScreen from 'expo-splash-screen';
-import { AppRoutes } from './src/routes/app.routes';
+import { AuthProvider, useAuth } from './src/hooks/auth';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -23,13 +22,15 @@ export default function App() {
     Poppins_700Bold,
   });
 
+  const { userStorageLoading } = useAuth();
+
   const onLayoutRootView = useCallback(async () => {
     if (fontsLoaded) {
       await SplashScreen.hideAsync();
     }
   }, [fontsLoaded]);
 
-  if (!fontsLoaded) {
+  if (!fontsLoaded || userStorageLoading) {
     return null;
   }
 
@@ -39,10 +40,10 @@ export default function App() {
       onLayout={onLayoutRootView}
     >
       <ThemeProvider theme={theme}>
-        <NavigationContainer>
-          <StatusBar barStyle='light-content' />
-          <AppRoutes />
-        </NavigationContainer>
+        <StatusBar barStyle='light-content' />
+        <AuthProvider>
+          <Routes />
+        </AuthProvider>
       </ThemeProvider>
     </GestureHandlerRootView>
   );
