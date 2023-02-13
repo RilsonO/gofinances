@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1676296875124" clover="3.2.0">
+  <project timestamp="1676296875124" name="All files">
+    <metrics statements="149" coveredstatements="111" conditionals="33" coveredconditionals="16" methods="64" coveredmethods="50" elements="246" coveredelements="177" complexity="0" loc="149" ncloc="149" packages="11" files="18" classes="18"/>
+    <package name="components.Form.Button">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="index.tsx" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/components/Form/Button/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/components/Form/Button/styles.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Form.CategorySelectButton">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="index.tsx" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/components/Form/CategorySelectButton/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/components/Form/CategorySelectButton/styles.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Form.Input">
+      <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="5"/>
+      <file name="index.tsx" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/components/Form/Input/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="10" count="5" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/components/Form/Input/styles.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="20" count="5" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="components.Form.InputForm">
+      <metrics statements="6" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="2"/>
+      <file name="index.tsx" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/components/Form/InputForm/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/components/Form/InputForm/styles.ts">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Form.TransactionTypeButton">
+      <metrics statements="14" coveredstatements="12" conditionals="10" coveredconditionals="5" methods="9" coveredmethods="7"/>
+      <file name="index.tsx" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/components/Form/TransactionTypeButton/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/components/Form/TransactionTypeButton/styles.ts">
+        <metrics statements="12" coveredstatements="10" conditionals="10" coveredconditionals="5" methods="8" coveredmethods="6"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="23" count="4" type="cond" truecount="1" falsecount="2"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="4" type="cond" truecount="1" falsecount="2"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="48" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="global.styles">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="theme.ts" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/global/styles/theme.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="43" coveredstatements="30" conditionals="6" coveredconditionals="4" methods="8" coveredmethods="6"/>
+      <file name="auth.tsx" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/hooks/auth.tsx">
+        <metrics statements="43" coveredstatements="30" conditionals="6" coveredconditionals="4" methods="8" coveredmethods="6"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="57" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="87" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="106" count="6" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="112" count="6" type="stmt"/>
+        <line num="113" count="6" type="stmt"/>
+        <line num="117" count="6" type="stmt"/>
+        <line num="119" count="2" type="stmt"/>
+        <line num="121" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="122" count="1" type="stmt"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="126" count="2" type="stmt"/>
+        <line num="129" count="2" type="stmt"/>
+        <line num="132" count="6" type="stmt"/>
+        <line num="148" count="8" type="stmt"/>
+        <line num="149" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.CategorySelect">
+      <metrics statements="22" coveredstatements="20" conditionals="2" coveredconditionals="1" methods="14" coveredmethods="12"/>
+      <file name="index.tsx" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/screens/CategorySelect/index.tsx">
+        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="43" count="6" type="stmt"/>
+        <line num="45" count="6" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/screens/CategorySelect/styles.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="8"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="36" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="6" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.Profile">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/screens/Profile/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.Register">
+      <metrics statements="42" coveredstatements="23" conditionals="10" coveredconditionals="2" methods="13" coveredmethods="8"/>
+      <file name="index.tsx" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/screens/Register/index.tsx">
+        <metrics statements="32" coveredstatements="13" conditionals="10" coveredconditionals="2" methods="9" coveredmethods="4"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="80" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="114" count="2" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="122" count="2" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="160" count="0" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/screens/Register/styles.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="categories.ts" path="/Users/rilsonoliveira/Desktop/Cursos/Rocketseat-Ignite/Trilha_RN_2021/gofinances/src/utils/categories.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
